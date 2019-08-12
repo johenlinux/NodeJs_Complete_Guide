@@ -1,0 +1,30 @@
+{
+  "name": "nodejs_complete_guide",
+  "version": "1.0.0",
+  "description": "\"Testing NodeJs\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johenlinux/NodeJs_Complete_Guide.git"
+  },
+  "author": "JohenLinux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johenlinux/NodeJs_Complete_Guide/issues"
+  },
+  "homepage": "https://github.com/johenlinux/NodeJs_Complete_Guide#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "handlebars": "^4.1.2",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
