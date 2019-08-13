@@ -4,11 +4,11 @@ const expresshbs = require('express-handlebars');
 var users = [];
 const app = express();
 
-app.engine('hbs', expresshbs({ defaultLayout: 'main-layout', extname: 'hbs' }));
+//app.engine('hbs', expresshbs({ defaultLayout: 'main-layout', extname: 'hbs' }));
 
 app.use(bodyParser.urlencoded( {extended: false} ));
 
-app.set('view engine', 'hbs');
+app.set('view engine', 'ejs');
 app.set('views', 'views');
 
 app.get('/', (req, res, next) => {
